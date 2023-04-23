@@ -1,0 +1,93 @@
+/* Reset styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* General styles */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+header {
+	background-color: #0a5b1e;
+	color: #18dd91;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: seagreen;
+	width:fit-content;
+}
+
+main {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+.hero {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.hero h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.cta {
+	display: inline-block;
+	background-color: #82c8de;
+	color: #0a5b1e;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.cta:hover {
+	background-color: #fff;
+	color: #d35bab;
+}
+
+.features {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.features div {
+	flex-basis: 30%;
+}
+
+.features h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.features p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.test

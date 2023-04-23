@@ -1,0 +1,90 @@
+<style>
+    body {
+        background-image: url("../img/contact.jpg");
+        background-size: cover;
+    }
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      .store-nav{
+    background-color: #6ae8e6;
+    padding: 25px;
+}
+.store-nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.store-nav li{
+    float: left;
+    padding: 5px;
+}
+      h1 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      label {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+      }
+      
+      button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+        margin-top: 20px;
+      }
+      
+      button:hover {
+        background-color: #3e8e41;
+      }
+</style>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>   
+    <meta name="viewport" content="width=device-width, initial-scale=auto">
+  </head>
+  <body>
+    <div class="store-nav">
+      <ul>
+          <li><a href="../index.html">Back</a></li>
+          <li><a href="../html/product.html">Products</a></li>
+          <li><a href="../html/aboutus.html">About Us</a></li>
+      </ul>
+  </div>
+    <div class="container">
+      <h1>Contact Us</h1>
+      <form action="submit-form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
